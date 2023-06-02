@@ -1,0 +1,133 @@
+*
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: #136d9f;
+    text-align: center;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 50px;
+}
+header > P{
+    padding-top: 14.5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+#logo{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: -13.5px;
+}
+#Banner1{
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#Explicação{
+    font-size: 28px;
+    color: #1a87b5;
+    width: auto;
+    text-align: center;
+    padding: 2% 8%;
+}
+#img{
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2% 14%;
+}
+#Aqua{
+    text-align: center;
+    padding: 5%;
+    height: 100%;
+}
+#Butao >a{
+    background-color: #dc6464;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: #dc6464;
+    text-align: center;
+    padding: 1% 10%;
+    margin: 0 auto;
+}
+#Butao{
+    margin-left: 33vw;
+    padding-bottom: 4%;
+}
+#total{
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas com a mesma largura */
+    grid-gap: 12px; /* Espaçamento entre os cards */
+    width: 100px;
+    margin-left: 10%;
+    padding: 4%;
+    color: white;
+  }
+  
+  .card {
+    background-color: rgb(0, 97, 163);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10%;
+  }
+  .card2 {
+    background-color: rgb(9, 146, 195);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10%;
+  }
+
+#Titulinho {
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    margin-left: 30%;
+}
+
+#Titulinho > h2{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.sim{
+    color: #0992c3;
+}
+#Titulinho >h5{
+    font-size: 20px;
+}
+#secu{
+    margin-top: 108px;
+    margin-left: 12px;
+    font-weight: 100;
+}
+#comp{
+    margin-top: -60px;
+    margin-left:563px;
+    font-size: 32px;
+    color: rgb(100, 100, 100);
+}
+#botun{
+    text-align: center;
+    margin-left: 34%;
+    margin-right: 6%;
+    background-color: #c76666;
+    width: 10px;
+    color: #fff;
+    padding: 1% 10%;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    white-space: nowrap;
+    text-decoration: none;
+}
